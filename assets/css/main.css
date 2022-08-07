@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Arial Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:url("~assets/fonts/Arial Narrow.woff2") format("woff2"),
+      url("~assets/fonts/Arial Narrow.woff") format("woff"),
+      url("~assets/fonts/Arial Narrow.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:url("~assets/fonts/Arial Narrow Bold.woff2") format("woff2"),
+      url("~assets/fonts/Arial Narrow Bold.woff") format("woff"),
+      url("~assets/fonts/Arial Narrow Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:url("~assets/fonts/Arial Narrow Italic.woff2") format("woff2"),
+      url("~assets/fonts/Arial Narrow Italic.woff") format("woff"),
+      url("~assets/fonts/Arial Narrow Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src:url("~assets/fonts/Arial Narrow Bold Italic.woff2") format("woff2"),
+      url("~assets/fonts/Arial Narrow Bold Italic.woff") format("woff"),
+      url("~assets/fonts/Arial Narrow Bold Italic.ttf") format("truetype");
+}
+
+html, body {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+body {
+  letter-spacing: 0.15em;
+  line-height: 1.2;
+}
